@@ -17,6 +17,7 @@ public:
 	void addOption(std::string optionDescription, int optionNumber);
 	void removeOption(int optionNumber);
 
+	//displays all options on the console
 	void draw() const;
 };
 

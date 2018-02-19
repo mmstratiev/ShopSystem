@@ -26,10 +26,11 @@ public:
 	void setSalary(double salary);
 	bool setEmployeeID(int employeeID);
 	void setEmployeeRandomID();
-	//operator overloads
+
+	//operator == overload
 	bool operator==(const Employee &i);
 
-	//validator
+	//checks if salary is above MINIMUM_SALARY
 	static bool validateSalary(double salary);
 
 	int generateID();
